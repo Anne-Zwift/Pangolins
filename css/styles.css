@@ -3,8 +3,7 @@ header {
 }
 
 .img-pangolin {
-    background-image: url("../images/img-pangolin.png");
-    max-width: 100%;
+    background-image: url("../images/img-lamps.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -51,10 +50,20 @@ h3 {
     border-radius: 360px;
 }
 
+.nature-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+    border-radius: 500px;
+    margin-top: 50px;
+}
+
 footer {
     text-align: center;
     color: beige;
     font-size: 0.7rem;
+    margin-top: 100px;
+    margin-bottom: 20px;
 }
 
 @media (min-width: 425px) {
