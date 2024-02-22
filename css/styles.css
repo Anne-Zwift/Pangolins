@@ -1,6 +1,9 @@
 header {
-    border: 4px solid #822503;
-    background-image: url("#");
+    border: 2px solid #822503;
+}
+
+.img-pangolin {
+    background-image: url("../images/img-pangolin.png");
 }
 
 body {
