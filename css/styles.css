@@ -1,11 +1,33 @@
 header {
     border: 2px solid #822503;
+    position: relative;
 }
 
 .img-pangolin {
-    background-image: url("../images/img-lamps.png");
+    background-image: url("#");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+nav {
+    display: none;
+    position: absolute;
+    background: #918181;
+    padding-right: 100px;
+}
+
+#menu-checkbox:checked ~ nav {
+    display: block;
+}
+
+#menu-checkbox {
+    display: none;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: #000;
 }
 
 body {
@@ -86,6 +108,23 @@ footer a:hover {
 
 .img-container {
     grid-template-columns: repeat(4, 1fr);
+}
+
+}
+
+@media (min-width: 600px) {
+
+nav {
+    display: block;
+    position: static;
+}
+
+.hamburger-icon {
+    display: none;
+}
+
+nav a {
+    display: inline-block;
 }
 
 }
