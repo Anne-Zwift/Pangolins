@@ -66,6 +66,22 @@ footer {
     margin-bottom: 20px;
 }
 
+.container-footer {
+    padding-left: 0px;
+}
+
+footer a:hover {
+    color: #822503;
+    transition-delay: 3ms;
+}
+
+.active-footer {
+    color: chartreuse;
+    text-decoration: none;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+}
+
 @media (min-width: 425px) {
 
 .img-container {
