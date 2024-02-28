@@ -1,10 +1,12 @@
 header {
-    border: 2px solid #822503;
+    border: 1px solid #822503;
     position: relative;
+    color: #fff;
+    padding: 50px;
 }
 
 .img-pangolin {
-    background-image: url("#");
+    background-image: url("../images/img-nature.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -13,7 +15,7 @@ nav {
     display: none;
     position: absolute;
     background: #918181;
-    padding-right: 100px;
+    margin-left: -50px;
 }
 
 #menu-checkbox:checked ~ nav {
@@ -28,6 +30,15 @@ nav a {
     display: block;
     text-decoration: none;
     color: #000;
+    padding: 4px;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+.hamburger-icon {
+    margin-left: -40px;
 }
 
 body {
@@ -117,6 +128,10 @@ footer a:hover {
 nav {
     display: block;
     position: static;
+    background: none;
+    padding: 80px;
+    margin-left: -100px;
+    margin-top: -80px;
 }
 
 .hamburger-icon {

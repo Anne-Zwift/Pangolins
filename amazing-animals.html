@@ -1,19 +1,25 @@
 <!doctype html>
-<html lang="no-en">
+<html lang="en-US">
     <head>
+        <meta charset="UTF-8">
         <title>Amazing animals</title>
+        <link rel="icon" type="image/png" href="./images/favicon-16x16.png">
+        <link rel="icon" type="image/png" href="./images/favicon-32x32.png">
+        <link rel="icon" type="image/png" href="./images/android-chrome-192x192.png">
         <meta name="description" content="this is a page about pangolins and other amazing animals">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/styles.css">
+        <script src="https://kit.fontawesome.com/d3e1febfe2.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <header>
+        <header class="img-pangolin">
+            <input type="checkbox" id="menu-checkbox" />
+            <label for="menu-checkbox" class="hamburger-icon"><i class="fa-solid fa-bars"></i></label>
             <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="amazing-animals.html">Amazing animals</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="about.html">About</a></li>
-                </ul>
+                <a href="index.html">Home</a>
+                <a href="amazing-animals.html">Amazing animals</a>
+                <a href="contact.html">Contact</a>
+                <a href="about.html">About</a>
             </nav>
         </header>
         <main>
@@ -25,8 +31,17 @@
 
         </main>
         <footer>
-            Copyright &copy;2024 
-
+            <div>
+                <ul class="container-footer">
+                    <a href="index.html" class="active-footer">Home</a>
+                    <a href="amazing-animals.html" class="active-footer">Amazing animals</a>
+                    <a href="contact.html" class="active-footer">Contact</a>
+                    <a href="about.html" class="active-footer">About</a>
+                </ul>
+            </div>
+            <div>
+                Copyright &copy;2024 
+            </div>   
         </footer>
     </body>
 
