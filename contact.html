@@ -9,6 +9,7 @@
         <meta name="description" content="this is a page about pangolins and other amazing animals">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="./css/contact.css">
         <script src="https://kit.fontawesome.com/d3e1febfe2.js" crossorigin="anonymous"></script>
     </head>
     <body>
@@ -24,9 +25,26 @@
         </header>
         <main>
             <h1>Contact us</h1>
-            <h2>What's scaly from tip to tail and can curl into a ball?</h2>
-            <p>Pangolins!</p>
-            <p>These solitary, primarily nocturnal animals, are easily recognized by their full armor of scales.</p>
+            <h2>Want to contact us or support us?</h2>
+            <p>Use the form below:</p>
+            <p>Add your question in the textbox and we will get back to you.</p>
+        <fieldset>
+            <legend>your contact information</legend>
+            <form>
+                <label for="name">First name</label>
+                <input type="text" id="text" name="first-name">
+                <label for="name">Last name</label>
+                <input type="text" id="text" name="last-name">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+            </form>
+        </fieldset>
+        <fieldset>
+            <form>
+                <textarea id="message" name="message">Message</textarea>
+            </form>
+        </fieldset>
+        <button class="submit-button">Submit</button>
         </main>
         <footer>
             <div>

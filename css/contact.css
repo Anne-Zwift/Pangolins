@@ -1,0 +1,23 @@
+input[type=text] {
+    padding: 5px 10px;
+    width: 90%;
+}
+
+input[type=email] {
+    padding: 5px 10px;
+    width: 90%;
+}
+
+#message {
+    width: 90%;
+    padding: 5px 10px;
+    font-size: 0.7rem;
+    color: darkgray;
+    margin-top: 20px;
+}
+
+.submit-button {
+    background-color: blueviolet;
+    margin: 10px;
+    padding: 5px 40px;
+}
