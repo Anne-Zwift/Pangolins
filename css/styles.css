@@ -6,7 +6,7 @@ header {
 }
 
 .img-pangolin {
-    background-image: url("../images/img-nature.png");
+    background-image: url("../images/img-pangolins3.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -72,7 +72,7 @@ h3 {
 .img-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-color: #000;
+    background-color: #918181;
     border-radius: 50px;
 }
 
@@ -123,7 +123,12 @@ footer a:hover {
 
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
+
+h2 {
+padding-left: 150px;
+padding-right: 150px;
+}
 
 nav {
     display: block;
@@ -140,6 +145,26 @@ nav {
 
 nav a {
     display: inline-block;
+    color: #fff;
+    padding-bottom: 200px;
 }
 
+}
+
+@media (min-width: 1100px) {
+
+.img-container {
+    border: 1px solid #fff;
+}
+
+.pangolin-img {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.img-pangolin {
+    background-image: url("../images/img-pangolins3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 }
