@@ -17,3 +17,11 @@
     width: 100%;
     border: 2px solid #fff;
 }
+
+@media (min-width: 1100px) {
+
+.img-gaupe1, .img-piggsvinet1, .img-ulv1, .img-villrein1 {
+    width: 50%;
+}
+
+}
