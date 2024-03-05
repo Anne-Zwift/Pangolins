@@ -13,3 +13,30 @@
     padding: 4px;
     background-color: aqua;
 }
+
+@media (min-width: 1100px) {
+
+p {
+    max-width: 250px;
+margin-left: 420px;
+}
+
+}
+
+@media (min-width: 1400px) {
+
+p {
+    margin-left: 550px;
+
+}
+    
+}
+
+@media (min-width: 1600px) {
+
+p {
+    margin-left: 800px;
+    
+}
+        
+}
