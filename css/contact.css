@@ -26,18 +26,21 @@ input[type=email] {
 
 input[type=text] {
     width: 20%;
+    margin-top: 10px;
 }
     
 input[type=email] {
     width: 20%;
+    margin-top: 20px;
 }
 
 #message {
     width: 20%;
 }
 
-label {
-    margin-bottom: 10px;
+textarea#message {
+    padding-top: 0px;
+    padding-bottom: 60px;
 }
 
 }
